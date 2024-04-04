@@ -68,7 +68,8 @@ li {
 }
 
 .about {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  padding-top: 80px;
 }
 .about .about-left {
   position: relative;
@@ -126,6 +127,11 @@ li {
   z-index: 1;
 }
 
+@media (max-width: 1449px) {
+  .about-box {
+    display: none;
+  }
+}
 @media (min-width: 1450px) {
   .about-box {
     display: -webkit-box;
